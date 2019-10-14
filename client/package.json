@@ -12,7 +12,7 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "react-scripts test",
+    "test": "jest --watchAll --verbose",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -29,5 +29,15 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
-  }
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "@testing-library/jest-dom": "^4.1.2",
+    "@testing-library/react": "^9.3.0"
+  },
+  "description": "This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).",
+  "main": "index.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

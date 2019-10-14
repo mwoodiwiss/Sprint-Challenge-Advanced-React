@@ -1,3 +1,17 @@
+$bg: rgb(255, 255, 255);
+
 .card {
-    background-color: rgba(255, 0, 0, 0.2) !important;
+  background-color: rgba(255, 0, 0, 0.2) !important;
+  margin: 5px;
+
+  a {
+    font-size: 25px;
+    text-decoration: none !important;
+    color: black !important;
+    &:hover {
+      text-shadow: 1px 1px 0 lighten($bg, 15%), 2px 2px 0 lighten($bg, 10%),
+        3px 3px 0 lighten($bg, 5%);
+      transform: translate(-3px, -3px);
     }
+  }
+}
